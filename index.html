@@ -7,18 +7,21 @@
                 background-color:lemonchiffon;
             }
         </style> -->
+        
     </head>
     <body>  
         <!-- <h1 style="border:1px solid red;background-color:lemonchiffon;">WEB</h1> -->
         <input type="button" value="day"
-        onclick="document.querySelector('body').style.backgroundColor='white';
-        document.querySelector('body').style.color='black';
+        onclick="var bodyTag = document.querySelector('h1');
+        bodyTag.style.backgroundColor='white';
+        bodyTag.style.color='black';
         document.querySelector('#a1').style.color='black';
         document.querySelector('#a2').style.color='black';
         document.querySelector('#a3').style.color='black';">
         <input type="button" value="night"
-        onclick="document.querySelector('body').style.backgroundColor='black';
-        document.querySelector('body').style.color='white';
+        onclick="var bodyTag = document.querySelector('h1');
+        bodyTag.style.backgroundColor='black';
+        bodyTag.style.color='white';
         document.querySelector('#a1').style.color='white';
         document.querySelector('#a2').style.color='white';
         document.querySelector('#a3').style.color='white';">
